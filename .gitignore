@@ -1,0 +1,20 @@
+.DS_Store
+~$*
+
+# From the main course repository's .gitignore
+.env
+.ipynb_checkpoints
+__pycache__
+.vscode
+
+# Python environment and build/test artifacts
+.venv/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Project artifacts
+uploaded_media/
+RUN_EVIDENCE.docx
